@@ -1,0 +1,181 @@
+>>>>>> 1. Population density
+
+Metadata
+
+Definition
+Number of inhabitants per square kilometre of total area.
+
+Calculation Criteria
+[Population density] = [Total population]/([Total area of the country]/100)
+
+Unit
+inhab/km2
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 2. Number of people undernourished (3-year average)
+
+Metadata
+
+Definition
+Number of people in a condition of undernourishment. The number of persons undernourished is obtained by multiplying estimates of the proportion of undernourished for each country (see glossary term "Prevalence of undernourishment") by estimates of the total population. Undernourishment refers to the condition of people whose dietary energy consumption is continuously below a minimum dietary energy requirement for maintaining a healthy life and carrying out a light physical activity.
+
+Unit
+1000 inhab
+Note:
+For additional information, please refer to the glossary
+
+Dataset: FAOSTAT (LINK)
+
+The indicator is calculated on 3-year averages. Year shown in results page refers to last year of the 3-year period. L'indicateur est calculé comme la moyenne des 3 années. Année montrée est la dernière année de la période de 3 ans. El indicador se calcula en promedios de 3 años. Año que se muestra es el último año del período de 3 años.
+
+>>>>>> 3. Agriculture, value added (% GDP)
+
+Metadata
+
+Definition
+Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production. Value added is the net output of a sector after adding up all outputs and subtracting intermediate inputs. It is calculated without making deductions for depreciation of fabricated assets or depletion and degradation of natural resources. The origin of value added is determined by the International Standard Industrial Classification (ISIC), revision 3. Note: This value is not specific to crop production, so care should be taken to ensure proper implementation.
+
+Unit
+%
+Note:
+For additional information, please refer to the glossary
+
+Dataset: World Bank (LINK)
+
+>>>>>> 4. Long-term average annual precipitation in volume
+
+Metadata
+
+Definition
+Long-term average (over space and time) of annual endogenous precipitation (produced in the country) in volume.
+
+Calculation Criteria
+[Long-term average annual precipitation in volume] = [Total area of the country]*[Long-term average annual precipitation in depth]/100000
+
+Unit
+10^9 m3/year
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 5. Dependency ratio
+
+Metadata
+
+Definition
+Indicator expressing the percent of total renewable water resources originating outside the country. This indicator may theoretically vary between 0% and 100%. A country with a dependency ratio equal to 0% does not receive any water from neighbouring countries. A country with a dependency ratio equal to 100% receives all its renewable water from upstream countries, without producing any of its own. This indicator does not consider the possible allocation of water to downstream countries. An example of the calculation rules is available in this sheet: http://www.fao.org/nr/water/aquastat/data/wrs/readPdf.html?f=AFG-WRS_eng.pdf.
+
+Calculation Criteria
+[Dependency ratio] = 100*([Surface water: accounted inflow&lang=en">Surface water: accounted inflow]+[Groundwater: accounted inflow&lang=en">Groundwater: accounted inflow])/([Surface water: accounted inflow&lang=en">Surface water: accounted inflow]+[Groundwater: accounted inflow&lang=en">Groundwater: accounted inflow]+[Total internal renewable water resources (IRWR)])
+
+Unit
+%
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 6. Total renewable water resources per capita
+
+Metadata
+
+Definition
+Total annual actual renewable water resources per inhabitant
+
+Calculation Criteria
+[Total renewable water resources per capita] = [Total renewable water resources]*1000000/[Total population]
+
+Unit
+m3/inhab/yr
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 7. MDG 7.5. Freshwater withdrawal as % of total renewable water resources
+
+Metadata
+
+Definition
+Total freshwater withdrawn in a given year, expressed in percentage of the total renewable water resources (TRWR). This parameter is an indication of the pressure on the renewable water resources. It is the Millennium Development Goal (MDG) Indicator 7.5 and the Sustainable Development Goal (SDG) indicator 6.4.2.
+
+Calculation Criteria
+[MDG 7.5. Freshwater withdrawal as % of total renewable water resources] = 100*[Total freshwater withdrawal (primary and secondary)]/[Total renewable water resources]
+
+Unit
+%
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 8. Agricultural water withdrawal as % of total water withdrawal
+
+Metadata
+
+Definition
+Agricultural water withdrawal as percentage of total water withdrawal
+
+Calculation Criteria
+[Agricultural water withdrawal as % of total water withdrawal] = [Agricultural water withdrawal]/[Total water withdrawal]*100
+
+Unit
+%
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 9. Agricultural water withdrawal as % of total renewable water resources
+
+Metadata
+
+Definition
+Water withdrawn for irrigation in a given year, expressed in percent of the total renewable water resources (TRWR). This parameter is an indication of the pressure on the renewable water resources caused by irrigation.
+Note: While freshwater withdrawal as % of total renewable water resources refers to withdrawal of primary and secondary surface water and groundwater, agricultural water withdrawal also includes non-conventional sources of water (such as direct use of wastewater and agricultural drainage water, desalinated water). That's why in some countries agricultural water withdrawal as % of total renewable water resources can be higher than freshwater withdrawal as % of total renewable water resources.
+
+Calculation Criteria
+[Agricultural water withdrawal as % of total renewable water resources] = 100*[Agricultural water withdrawal]/[Total renewable water resources]
+
+Unit
+%
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 10. Total water withdrawal per capita
+
+Metadata
+
+Definition
+Total annual amount of water withdrawn per capita.
+
+Calculation Criteria
+[Total water withdrawal per capita] = [Total water withdrawal]*1000000/[Total population]
+
+Unit
+m3/year per inhabitant
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 11. Area equipped for irrigation: total
+
+Metadata
+
+Definition
+Area equipped to provide water (via irrigation) to crops. It includes areas equipped for full/partial control irrigation, equipped lowland areas, and areas equipped for spate irrigation.
+
+Calculation Criteria
+[Area equipped for irrigation: total] = [Area equipped for full control irrigation: total]+[Area equipped for irrigation: equipped lowland areas]+[Area equipped for irrigation: spate irrigation]
+
+Unit
+1000 ha
+Note:
+For additional information, please refer to the glossary
+
+>>>>>> 12. % of the cultivated area equipped for irrigation
+
+Metadata
+
+Definition
+Part of cultivated land that is equipped for irrigation, expressed in percentage. This indicator is not valid for the few countries that irrigate pastures.
+
+Calculation Criteria
+[% of the cultivated area equipped for irrigation] = 100*[Area equipped for irrigation: total]/[Cultivated area (arable land + permanent crops)]
+
+Unit
+%
+Note:
+For additional information, please refer to the glossary
+      

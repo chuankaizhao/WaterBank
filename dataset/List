@@ -1,0 +1,21 @@
+-- Population --
+1_population_density.csv				  // Number of people / Area.
+ 
+-- Economy and food security -- 
+2_number_of_people_undernourished.csv                     // People in hunger. 
+3_agriculture_value_added.csv                             // Contribution of agriculture to GDP. 
+ 
+-- Water resources -- 
+4_long_term_average_annual_precipitation_in_volume.csv    // 
+5_dependency_ratio.csv					  // Contribution of transboundary water (from other countries) to the total renewable water resources
+6_total_renewable_water_resources_per_capita.csv          // Per capita same as per inhabitant
+7_pressure_on_water_resources.csv         		  // Proportion of water resources withdrawn
+
+-- Water use --
+8_proportion_of_total_water_withdrawal_for_agriculture.csv                    // Agricultural water use / total water withdrawl
+9_proportion_of_renewable_water_resources_withdrawn_for_agriculture.csv       // Agricultural water use / renewable water withdrawl
+10_water_withdrawl_per_inhabitant.csv 					      // Water withdrawl per person
+
+-- Irrigation --
+11_area_equipped_for_irrigation.csv					      // 
+12_part_of_cultivated_area_under_irrigation.csv				      // Area equipped for irrigation / cultivated area

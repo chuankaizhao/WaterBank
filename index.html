@@ -1,0 +1,571 @@
+<!DOCTYPE HTML>
+<!--
+    @Water Bank
+    CS 519 - Final Project
+	Template based on html5up.net 
+-->
+<html>
+    <head>
+        <title>Water Bank</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+	<body>
+        <div id="header">
+            <div class="top">
+                <div id="logo">
+                    <span class="image avatar48"><img style="opacity:0.95" src="images/logo.png" alt="" /></span>
+                    <h1 id="title">Water Bank</h1>
+                    <p>Scientific Visualization </p>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><div class="icon fa-home"> Intro</div></a></li>
+                        <li><a href="#resource" id="portfolio-link" class="skel-layers-ignoreHref"><div class="icon fa-th"> Resource</div></a></li>
+                        <li><a href="#colormap" id="about-link" class="skel-layers-ignoreHref"><div class="icon fa-user"> Data Map</div></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="bottom">
+                <ul class="icons">
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <section id="top" class="one dark cover">
+                <div class="container">
+                    <header>
+                        <h2 class="alt">Visualizing the Global Drought Conditions: Historical Water Resources and Uses</h2>
+                        <p>Xi Chen, Xiaoyi Wang, Chuankai Zhao</p>
+                    </header>
+                    <footer>
+                        <a href="#colormap" class="button scrolly">Visualize</a>
+                    </footer>
+                </div>
+            </section>
+            <section id="resource" class="two">
+                <div class="container">
+                    <header>
+                        <h2>Data Resources and Variables </h2>
+                    </header>
+                    <div class="row">
+                        <div class="3u 12u$(mobile)">
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Number of inhabitants per square kilometre of total area.</div>
+                                <header><h3>Population density </h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">The number of persons undernourished is obtained by multiplying estimates of the proportion of undernourished for each country by estimates of the total population.</div>
+                                <header><h6>Number of people undernourished</h6></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Agriculture corresponds to ISIC divisions 1-5 and includes forestry, hunting, and fishing, as well as cultivation of crops and livestock production.</div>
+                                <header><h3>Agriculture value added</h3></header>
+                            </article>
+                        </div>
+                        <div class="3u 12u$(mobile)">
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Long-term average (over space and time) of annual endogenous precipitation (produced in the country) in volume.</div>
+                                <header><h3>Avg annual precipitation in volume </h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Indicator expressing the percent of total renewable water resources originating outside the country. This indicator may theoretically vary between 0% and 100%.</div>
+                                <header><h3>Dependency ratio</h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Total annual actual renewable water resources per inhabitant.</div>
+                                <header><h3>Renewable water resources per capita</h3></header>
+                            </article>
+                        </div>
+                        <div class="3u 12u$(mobile)">
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Total freshwater withdrawn in a given year, expressed in percentage of the total renewable water resources. This parameter is an indication of the pressure on the renewable water resources.</div>
+                                <header><h3>Pressure on water resources</h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Agricultural water withdrawal as percentage of total water withdrawal.</div>
+                                <header><h3>Proportion total water withdrawal</h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Water withdrawn for irrigation in a given year, expressed in percent of the total renewable water resources. This parameter is an indication of the pressure on the renewable water resources caused by irrigation.</div>
+                                <header><h4>Proportion renewable water withdraw</h3></header>
+                            </article>
+                        </div>
+                        <div class="3u$ 12u$(mobile)">
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Total annual amount of water withdrawn per capita.</div>
+                                <header><h3>Water withdrawl per inhabitant</h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Area equipped to provide water (via irrigation) to crops. It includes areas equipped for full/partial control irrigation, equipped lowland areas, and areas equipped for spate irrigation.</div>
+                                <header><h3>Area equipped for irrigation</h3></header>
+                            </article>
+                            <article class="item">
+                                <img class="image fit" src="images/pic02.jpg" alt="" />
+                                <div class="centered">Part of cultivated land that is equipped for irrigation, expressed in percentage. This indicator is not valid for the few countries that irrigate pastures.</div>
+                                <header><h3>Part of cultivated area under irrigation</h3></header>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           <section id='colormap'>
+               <div id="thirdpart">
+                <div id='btn'>
+                    <select id="value" class="droplst">
+                        <option value="population">Population density (inhab/km2)</option>
+                        <option value="undernourished">Number of people undernourished</option>    
+                        <option value="argi_value">Agriculture value added (% GDP)</option>
+                        <option value="precipitation">Avg annual precipitation in volume (10^9 m3/year)</option>
+                        <option value="ratio">Dependency ratio (%)</option>
+                        <option value="renew">Renewable water resources per capita (m3/inhab/year)</option>
+                        <option value="press">Pressure on water resources (%)</option>
+                        <option value="withdrawal">Proportion total water withdrawal (%)</option>
+                        <option value="src_withdrawn">Proportion renewable water resources withdraw (%)</option>
+                        <option value="inhabitant">Water withdrawl per inhabitant (m3/inhab/year)</option>
+                        <option value="area">Area equipped for irrigation: total (1000 ha)</option>
+                        <option value="cultivate_area">Part of cultivated area under irrigation (%)</option>
+                    </select>
+                    <select id="year" class="droplst">
+                        <option value="1960">1960 - 1969</option>
+                        <option value="1970">1970 - 1979</option>    
+                        <option value="1980">1980 - 1989</option>
+                        <option value="1990">1990 - 1999</option>
+                        <option value="2000">2000 - 2009</option>
+                        <option value="2010">2010 - 2017</option>
+                    </select>
+                    <div id='btn2'>
+                        <button onclick="myFunction()" class="dropbtn"> Show </button>
+                        <button onclick="selectCountry()" class="dropbtn"> Select </button>
+                        <button onclick="drawPlot()" class="dropbtn"> Finish </button>
+                    </div>
+                </div>
+               </div>    
+               <div class="row">
+                   <div class="6u 12u$(mobile)">
+                       <div id="dm"><div id="fourthpart"> 
+                           <div id="ins">To generate the world data map:<br> 1. Select variable name and year range from two dropdown lists <br> 2. Click "Show" button </div> 
+                           
+                           </div> </div>
+                   </div>
+                   <div class="6u 12u$(mobile)">
+                       <div id="iplot">
+                           <div id="ins">To generate the indexed line chart:<br> 1. Click the "Select" button and  select the countries on the datamap <br> 2. Click "Finish" button <br> <b style="color:red">Notice: need to refresh page before generating a new plot</b> </div> 
+                       </div>
+                   </div>
+                   <div id="pplot"> </div>
+               </div>
+                <canvas id ="example" style="border:0px solid #FFFFFF;">
+                        Please use a browser that supports "canvas"
+                </canvas>
+            </section>
+            </div>
+			<div id="footer">
+                <ul class="copyright">
+                    <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">Water Bank</a></li>
+                </ul>
+			</div>
+
+            <script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+               
+            <script src="dataset/1_population_density.json"></script>
+            <script src="dataset/2_number_of_people_undernourished.json"></script>
+            <script src="dataset/3_agriculture_value_added.json"></script>
+            <script src="dataset/4_long_term_average_annual_precipitation_in_volume.json"></script>
+            <script src="dataset/5_dependency_ratio.json"></script>
+            <script src="dataset/6_total_renewable_water_resources_per_capita.json"></script>
+            <script src="dataset/7_pressure_on_water_resources.json"></script>
+            <script src="dataset/8_proportion_of_total_water_withdrawal_for_agriculture.json"></script>
+            <script src="dataset/9_proportion_of_renewable_water_resources_withdrawn_for_agriculture.json"></script>
+            <script src="dataset/10_water_withdrawl_per_inhabitant.json"></script>
+            <script src="dataset/11_area_equipped_for_irrigation.json"></script>
+            <script src="dataset/12_part_of_cultivated_area_under_irrigation.json"></script>
+            <script src="dataset/country_code.json"></script>
+
+            <script src="SciVisMath.js"></script>
+            <script src="toolbox.js"></script>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/datamaps/0.5.8/datamaps.all.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+            <script src="http://d3js.org/d3.v3.min.js"></script>
+            <script type="text/javascript" src="assets/js/protovis-r3.2.js"></script>
+
+            <!--Implement datamap-->
+            <script>
+                var dataset = {};
+                var width = 500;
+                var height = 200;
+                var countries = [];
+                var curr_data = {};
+                function textDisappear(){
+                    infobox = document.getElementById("ins");
+                    if(infobox!=null){
+                        infobox.style.display = "none";    
+                    }
+                }
+                function selectCountry(){
+                                      
+                    console.log('countris new:', countries);
+                    document.addEventListener("click", function(){
+                        var s = document.getElementById('hi');
+                        if(s!=null){
+                            var st = s.innerHTML;
+                            var start_pos = st.indexOf('>') + 1;
+                            var end_pos = st.indexOf('<',start_pos);
+                            var text_to_get = st.substring(start_pos, end_pos);
+                            countries.push(text_to_get);
+                        }
+                    });
+                }
+                function drawPlot(){ // changes
+                    textDisappear();
+                    document.getElementById('iplot').innerHTML = "";
+                    console.log(countries);
+                    var plot = {};
+                    var time = ['1960','1970','1980','1990','2000','2010']
+                    var v = {};
+                    var c=[];
+                    v['values']=[];
+                     for (var j=0; j<6; j++){
+                        v['values'].push(time[j]);                
+                    }
+                    plot['Date']=v;
+                    for (var i=0; i< countries.length; i++){
+                        c[i] = code[countries[i]];
+                        v = {};
+                        v['values'] = [];
+                        for (var j=0; j<6; j++){
+                            v['values'].push(curr_data[c[i]][time[j]]);                
+                        }
+                        plot[c[i]] = v;
+                    }
+                    indexPlot(plot, c);
+                    
+                }
+
+                function myFunction() {
+                    var year = document.getElementById("year").value;
+                    var varName = document.getElementById("value").value;
+                    var canvas = document.getElementById('example');
+                    if (! canvas) {
+                        console.log(' Failed to retrieve the < canvas > element');
+                        return false;
+                    }
+                    else {
+                        console.log(' Got < canvas > element ');
+                    }
+                    var ctx = canvas.getContext('2d'); 
+                    console.log(year, varName);
+                    render(ctx, year, varName);
+                }
+                function render(ctx, year, varName){      
+                    document.getElementById('fourthpart').innerHTML = "";
+                    ctx.clearRect(0, 0, width, height);
+                    countries = [];
+
+                    curr_data = window[varName];
+                    var series = generate_color_data(year, curr_data);
+                    var dataset = {};
+
+                    // We need to colorize every country based on "numberOfWhatever"
+                    // colors should be uniq for every value.
+                    // For this purpose we create palette(using min/max series-value)
+                    var onlyValues = series.map(function(obj){ return obj[1]; });
+                    var minValue = Math.min.apply(null, onlyValues);
+                    var maxValue = Math.max.apply(null, onlyValues);
+                    console.log(minValue, maxValue);
+                    //http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/
+                    var paletteScale = d3.scale.log()
+                            .domain([minValue+0.00001, maxValue])
+                            .range(["#ffe100", "#0096ff"]); // blue color: 1eafff
+                    series.forEach(function(item){  
+                        var iso = item[0];
+                        var value = item[1];
+                        dataset[iso] = { numberOfThings: value, fillColor: paletteScale(value) };
+                    });
+
+                    map = new Datamap({
+                        element: document.getElementById('fourthpart'),
+                        projection: 'mercator', // big world map
+                        fills: { defaultFill: '#F5F5F5' },
+                        data: dataset,
+                        responsive: false,
+                        width:400,
+                        height:400,
+                        geographyConfig: {
+                            borderColor: '#DEDEDE',
+                            highlightBorderWidth: 2,
+                            highlightFillColor: function(geo) {
+                                return geo['fillColor'] || '#F5F5F5';
+                            },
+                            highlightBorderColor: 'rgba(0,0,0,0.8)',//#B7B7B7 
+                            popupOnHover: true, 
+                            popupTemplate: function(geo, data) {
+                                if (!data) { return ; }
+                                return ['<div class="hoverinfo" id="hi">',
+                                    '<strong>', geo.properties.name, '</strong>',
+                                    '<br>Value: <strong>', data.numberOfThings, '</strong>',
+                                    '</div>'].join('');
+                            }
+                        }
+                    });
+                    for(var i = 0; i <= 255; i++) { // fill strokes
+                        ctx.beginPath();
+                        var r = Math.floor(255-0.882*i);
+                        var g = Math.floor(225-0.294*i);
+                        var b = i;
+                        var color = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+                        ctx.globalAlpha = 0.8;
+                        ctx.fillStyle = color;
+                        ctx.fillRect(i*0.8+20, 15, 0.8, 8);
+                    }
+                    ctx.font = "8px";
+                    ctx.fillStyle = "rgb(0,0,0)";
+                    ctx.fillText(minValue,20, 40);
+                    ctx.fillText(maxValue,210,40);
+                }
+                
+                
+            </script>
+        
+            <!--Implement indexed line chart-->
+            <script>
+            var margin = {top: 30, right: 50, bottom: 30, left: 20},
+                width = 960 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
+            var x = d3.scale.ordinal().rangePoints([0, width], 1),
+                y = {},
+                dragging = {};
+            var line = d3.svg.line(),
+                axis = d3.svg.axis().orient("left"),
+                background,
+                foreground;
+            var svg = d3.select("#pplot").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            d3.csv("https://raw.githubusercontent.com/XICHEN24/Water_Bank/master/dataset/data.csv", function(error, data) {
+              // Extract the list of dimensions and create a scale for each.
+              x.domain(dimensions = d3.keys(data[0]).filter(function(d) {
+                return d != "Nation" && (y[d] = d3.scale.linear()
+                    .domain(d3.extent(data, function(p) { return +p[d]; }))
+                    .range([height, 0]));
+              }));
+              // Add grey background lines for context.
+              background = svg.append("g")
+                  .attr("class", "background")
+                .selectAll("path")
+                  .data(data)
+                .enter().append("path")
+                  .attr("d", path);
+
+              // Add blue foreground lines for focus.
+              foreground = svg.append("g")
+                  .attr("class", "foreground")
+                .selectAll("path")
+                  .data(data)
+                .enter().append("path")
+                  .attr("d", path);
+
+              // Add a group element for each dimension.
+              var g = svg.selectAll(".dimension")
+                  .data(dimensions)
+                  .enter().append("g")
+                  .attr("class", "dimension")
+                  .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+                  .call(d3.behavior.drag()
+                    .origin(function(d) { return {x: x(d)}; })
+                    .on("dragstart", function(d) {
+                      dragging[d] = x(d);
+                      background.attr("visibility", "hidden");
+                    })
+                    .on("drag", function(d) {
+                      dragging[d] = Math.min(width, Math.max(0, d3.event.x));
+                      foreground.attr("d", path);
+                      dimensions.sort(function(a, b) { return position(a) - position(b); });
+                      x.domain(dimensions);
+                      g.attr("transform", function(d) { return "translate(" + position(d) + ")"; })
+                    })
+                    .on("dragend", function(d) {
+                      delete dragging[d];
+                      transition(d3.select(this)).attr("transform", "translate(" + x(d) + ")");
+                      transition(foreground).attr("d", path);
+                      background
+                          .attr("d", path)
+                        .transition()
+                          .delay(500)
+                          .duration(0)
+                          .attr("visibility", null);
+                    }));
+
+              // Add an axis and title.
+              g.append("g")
+                  .attr("class", "axis")
+                  .each(function(d) { d3.select(this).call(axis.scale(y[d])); })
+                .append("text")
+                  .style("text-anchor", "middle")
+                  .attr("y", -9)
+                  .text(function(d) { return d; });
+
+              // Add and store a brush for each axis.
+              g.append("g")
+                  .attr("class", "brush")
+                  .each(function(d) {
+                    d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
+                  })
+                .selectAll("rect")
+                  .attr("x", -8)
+                  .attr("width", 16);
+            });
+            function position(d) {
+              var v = dragging[d];
+              return v == null ? x(d) : v;
+            }
+            function transition(g) {
+              return g.transition().duration(500);
+            }
+            // Returns the path for a given data point.
+            function path(d) {
+              return line(dimensions.map(function(p) { return [position(p), y[p](d[p])]; }));
+            }
+            function brushstart() {
+              d3.event.sourceEvent.stopPropagation();
+            }
+            // Handles a brush event, toggling the display of foreground lines.
+            function brush() {
+              var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
+                  extents = actives.map(function(p) { return y[p].brush.extent(); });
+              foreground.style("display", function(d) {
+                return actives.every(function(p, i) {
+                  return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+                }) ? null : "none";
+              });
+            }
+            </script>
+        
+            <!--Implement indexed line chart-->
+            <script type="text/javascript+protovis">
+            function indexPlot(stocks, names){
+
+                var data = [],
+                    fy = function(d) d.price, // y-axis value
+                    fx = function(d) d.index,  // x-axis value
+                    ft = function() data[this.parent.index].ticker, // label
+                    w = 350,
+                    h = 200,
+                    S = pv.max(pv.values(stocks), function(s) s.values.length),
+                    idx = Math.floor(S/2) - 1,
+                    x = pv.Scale.linear(0,S-1).range(0,w),
+                    y = pv.Scale.linear(-1,5).range(0,h),
+                    rescale = true;
+
+                /* Normalize the data according to an index point. */
+                var indexify = function(data, cols, idx) {
+                    return cols.map(function(c) {
+                        var v = data[c].values[idx];
+                        return { ticker: c,
+                            values: data[c].values.map(function(d,i) {
+                                      return {index:i, price:((d-v)/v)}; }) 
+                        }
+                    });
+                };
+
+                /* Compute new index values, rescale if needed, and render. */
+                var update = function() {
+                    data = indexify(stocks, names, idx);
+                    if (rescale) {
+                      var min = pv.min(data.map(function(d) pv.min(d.values, fy)));
+                      var max = pv.max(data.map(function(d) pv.max(d.values, fy)));
+                    }
+                    y.domain(min, max).nice();
+                    vis.render();
+                }
+
+                /* The visualization panel. Stores the active index. */
+                var vis = new pv.Panel()
+                    .def("i", -1)
+                    .left(300)
+                    .right(70)
+                    .top(10.5)
+                    .bottom(18)
+                    .width(w)
+                    .height(h);
+
+                /* Horizontal gridlines showing %-change. */
+                vis.add(pv.Rule)
+                    .data(function() y.ticks(8))
+                    .bottom(y)
+                    .strokeStyle(function(d) d==0 ? "black" : "#cccccc")
+                  .anchor("left").add(pv.Label)
+                    .text(function(d) (d * 100).toFixed(0) + "%");
+
+                /* Y-axis label */
+                vis.add(pv.Label)
+                    .data(["Normalized Value"])
+                    .left(-45)
+                    .bottom(h/2)
+                    .font("10pt Arial")
+                    .textAlign("center")
+                    .textAngle(-Math.PI/2);
+
+                /* Stock lines. */
+                vis.add(pv.Panel)
+                    .data(function() data)
+                  .add(pv.Line)
+                    .data(function(d) d.values)
+                    .left(x.by(fx))
+                    .bottom(y.by(fy))
+                    .lineWidth(2)
+                  .add(pv.Label)
+                    .visible(function() this.index == S-1)
+                    .textBaseline("middle")
+                    .textMargin(6)
+                    .text(ft);
+
+                /* Current index line. */
+                vis.add(pv.Rule)
+                    .visible(function() idx >= 0 && idx != vis.i())
+                    .left(function() x(idx))
+                    .top(-4)
+                    .bottom(-4)
+                    .strokeStyle("red")
+                  .anchor("bottom").add(pv.Label)
+                    .text(function() stocks.Date.values[idx]);
+
+                /* An invisible bar to capture events (without flickering). */
+                vis.add(pv.Panel)
+                    .events("all")
+                    .event("mousemove", function() { idx = x.invert(vis.mouse().x) >> 0; update(); });
+
+                update();
+            }
+        </script>
+	</body>
+</html>
